@@ -11,7 +11,6 @@ seaborn==0.11.2
 nltk==3.7
 wordcloud==1.8.1
 textblob==0.17.1
-unicodedata==13.0.0
 inflect==5.6.0
 bs4==4.11.1
 spacy==3.3.0
