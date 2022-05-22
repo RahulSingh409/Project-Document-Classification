@@ -1345,10 +1345,10 @@ def main():
         with st.sidebar:
             image= Image.open("Home.png")
             add_image=st.image(image,use_column_width=True)  
-        st.sidebar.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-E-commerce-comparison-Website-vs-Mobile-App.git)")    
+        st.sidebar.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-Document-Classification.git)")    
         
         st.title('Data Classification')
-        st.video("https://youtu.be/RUPJ7uHwUzc")
+        st.video("https://youtu.be/O73OPzkUlR0")
         
         st.markdown("""
 
@@ -1389,7 +1389,7 @@ def main():
                     #### Mr. Mummareddy Manikumara Swamy
                     #### Mr. Sushilkumar Yadav''')
                     """)
-        st.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-E-commerce-comparison-Website-vs-Mobile-App.git)")
+        st.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-Document-Classification.git)")
     
     #Horizontal Project selected
     if selected == "Projects":
