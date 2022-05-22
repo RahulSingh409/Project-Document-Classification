@@ -99,7 +99,6 @@ import joblib
 import time
 timestr = time.strftime("%Y%m%d-%H%M%S")
 import sys
-from win32com.client import constants
 
 ###############################################Text Processing###############################################
 #convert to lowercase, strip, remove punctuations, remove URL, remove HTML and remove emoji
