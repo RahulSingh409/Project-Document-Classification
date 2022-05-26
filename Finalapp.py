@@ -1564,7 +1564,7 @@ def main():
                                         image= Image.open("internship.png")
                                         st.image(image,use_column_width=True)    
 
-                            if menu == 'Upload File(.txt,.docx,.pdf)':
+                            if menu == 'Upload File(.docx,.pdf)':
                                     st.subheader("DocumentFiles")
                                     docx_file = st.file_uploader("Upload File  Only PeopleSoft, SQL Developer, React JS, Workday & Internship Resume Accept",type=['docx','pdf'])
                                     if st.button("Process"):
