@@ -1528,7 +1528,7 @@ def main():
                                     #### Kindly select from left Menu.
                                     """)
                             
-                            menu_list = ['Paste/Write Text' , 'Upload File(.txt,.docx,.pdf)']
+                            menu_list = ['Paste/Write Text' , 'Upload File(.docx,.pdf)']
                             menu = st.sidebar.radio("Menu", menu_list)
                             
 
