@@ -1458,6 +1458,7 @@ def main():
 
                     #Checking ML Method And Accuracy
                     if menu == 'Checking ML Method And Accuracy':
+                            st.title('Checking Accuracy On Different Algorithms And Vectorization')
                             df = pd.read_csv('Resume.csv')
                             if st.checkbox("View data"):
                                 st.write(df)
