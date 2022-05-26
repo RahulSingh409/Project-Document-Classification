@@ -1522,6 +1522,11 @@ def main():
                                         naive_tfidf(df)
 
                     if menu == 'Prediction':
+                            st.title('Prediction')
+                            st.markdown("""
+                                    #### Kindly select from left Menu.
+                                    """)
+                            
                             menu_list = ['Paste/Write Text' , 'Upload File(.txt,.docx,.pdf)']
                             menu = st.sidebar.radio("Menu", menu_list)
 
