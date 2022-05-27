@@ -1434,6 +1434,8 @@ def main():
                     st.title('Exploratoriy Data Analysis')
 
                     df = pd.read_csv('Resume.csv')
+                    if st.checkbox("View data"):
+                        st.write(df)
                     menu_list2 = ['None', 'Label Analysis','Character & Word Distribution','N-Gram Analysis','Sentiment Analysis','Part Of Speech & Top Common Words','Wordcloud','Named Entity Recognition (NER)','Topic Model Analysis']
                     menu_Exp = st.sidebar.radio("Menu EDA", menu_list2)
 
