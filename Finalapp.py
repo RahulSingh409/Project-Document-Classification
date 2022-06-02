@@ -1411,7 +1411,7 @@ def main():
                     #### Mr. Vishal Vijay Kakade
                     #### Mr. R. Hari Haran
                     #### Mr. Mummareddy Manikumara Swamy
-                    #### Mr. Sushilkumar Yadav''')
+                    #### Mr. Sushilkumar Yadav
                     """)
         st.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-Document-Classification.git)")
     
